@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    background-color: rgb(255, 200, 239);
+    color: rgb(184, 27, 27);
+}
+
+header {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    height: 70vh;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+nav a {
+    border: 1px solid rgb(184, 27, 27);
+    padding: 10px;
+    margin: 10px;
+    transition: all ease 200ms;
+}
+
+nav a:hover {
+    background-color: blueviolet;
+    color: antiquewhite;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    transition: all ease 200ms;
+}
+
+img:hover {
+   transform: scale(1.2);
+}
+
+h6 {
+    opacity: 0;
+    transition: all ease 200ms;
+}
+
+.magic:hover .hidden_text {
+    opacity: 1;
+}
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
